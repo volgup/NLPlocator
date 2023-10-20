@@ -27,7 +27,7 @@ Add repository maven url, If required to find repositories version:
         }
     }
 
-## Initialize start to track and stop location
+## Initialize start and stop location latlng's
 
  **Start Nmea Location Service to capture Location using LocationListener:**
  
@@ -43,7 +43,8 @@ Add repository maven url, If required to find repositories version:
             
     }); 
 **Stop location capturing:**
- NmeaLocationService.stopBackendService();
+ 
+    NmeaLocationService.stopBackendService();
 
 Last Recorded Location: (Required to start NmeaLocationService service
 to get last Recorded location)
