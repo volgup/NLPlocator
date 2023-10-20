@@ -17,13 +17,14 @@ Or if the library is to be used only for debug builds and not release builds, th
     debugImplementation ('com.github.volgup:poslib:1.0@aar') { transitive = true }
 
  **Add repository maven url, If required to find repositories version:**
-    repositories 
-    {
-        google()
-        maven {
-            url "https://github.com/volgup/NLPlocator"
-        }
-    }
+ repositories 
+ {
+   google()
+   maven
+      {
+      url "https://github.com/volgup/NLPlocator"
+      }
+ }
 ## Initialize start to track and stop location
 
  **Start Nmea Location Service to capture Location using LocationListener:**
