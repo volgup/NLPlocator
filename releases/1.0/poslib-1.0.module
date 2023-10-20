@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.volgup",
+    "module": "poslib",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "poslib-1.0.aar",
+          "url": "poslib-1.0.aar",
+          "size": 130145,
+          "sha512": "6b4df7640fe589e47fb21542d21a2f14106c0eb32e5e5f4b615158ae5716bcf10801f533553a39c211963f70961d6833513a83cb4b56894aa11f8fdb0cedcec0",
+          "sha256": "bd047b933f817bdfeba149508c5e5fb3e182e3623574edb7b2f342982f667be3",
+          "sha1": "22bcda4f6655145536327f2bb5de0b07f09a95c0",
+          "md5": "14cfa1992cd592c1adcabca182f29187"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.7"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "poslib-1.0.aar",
+          "url": "poslib-1.0.aar",
+          "size": 130145,
+          "sha512": "6b4df7640fe589e47fb21542d21a2f14106c0eb32e5e5f4b615158ae5716bcf10801f533553a39c211963f70961d6833513a83cb4b56894aa11f8fdb0cedcec0",
+          "sha256": "bd047b933f817bdfeba149508c5e5fb3e182e3623574edb7b2f342982f667be3",
+          "sha1": "22bcda4f6655145536327f2bb5de0b07f09a95c0",
+          "md5": "14cfa1992cd592c1adcabca182f29187"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "poslib-1.0-sources.jar",
+          "url": "poslib-1.0-sources.jar",
+          "size": 57068,
+          "sha512": "beba0f93f35c35a1eafb45c5072fca1b04a3ef1a5ee5680dd32fe7dcaf28d74d00b17ff0a06dcd752e16a39c6a9574a53a0d927fb9b3d2f096121e1c5432ec0b",
+          "sha256": "93cff57029d50421aea8480a883148f8a8691d9550103d7d89a6f418d2a2432a",
+          "sha1": "b033f8c05d33bfe045c63eb4f845f883e1e3d76b",
+          "md5": "25eb696393e6a15d7bbf65a9f65412f5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "poslib-1.0-javadoc.jar",
+          "url": "poslib-1.0-javadoc.jar",
+          "size": 476162,
+          "sha512": "0b979e414a4aeb350187ec7024cfb683805522829ade6c0bf476a2e404b9496f2039d9baa42f0d98b5e0c914bcfefcec5bd4888313fe8f38b51ee41876aec7bc",
+          "sha256": "de3ec04c8bc254805eea2265ff6d637309f4e1afd0cdbfdb44671163b5428173",
+          "sha1": "9115a82c8032dd7594cc48133853b3a476e27737",
+          "md5": "a20c8e54ae88d5d6263a0f801f656e4a"
+        }
+      ]
+    }
+  ]
+}
